@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7441047412159376733
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.385863
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 12.849232
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.5365944
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 554.945
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.593
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 389.04257
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9785454
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.2060313
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 23.78
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2047018959221427937, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4f31840584df394419b87a9a81e5f7f2, type: 2}
+    - target: {fileID: 919132149155446097, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_Name
+      value: Urban_Street_Pavestone_Grey__xlggfbrqx_High
+      objectReference: {fileID: 0}
+    - target: {fileID: 958493113065207120, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4f31840584df394419b87a9a81e5f7f2, type: 2}
+    - target: {fileID: 5030536065985653080, guid: bdc39aa6af8b05c40a5a9740ae045764,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4f31840584df394419b87a9a81e5f7f2, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bdc39aa6af8b05c40a5a9740ae045764, type: 3}
