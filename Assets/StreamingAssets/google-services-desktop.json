@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "678884645550",
+    "firebase_url": "https://capstoneproject-ff99e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "capstoneproject-ff99e",
+    "storage_bucket": "capstoneproject-ff99e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678884645550:android:1e1e93d8afaf6b82e22b3f",
+        "android_client_info": {
+          "package_name": "com.company.Capstone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqJKd84QIi7opRSG5halxEikhwC2GvsG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
