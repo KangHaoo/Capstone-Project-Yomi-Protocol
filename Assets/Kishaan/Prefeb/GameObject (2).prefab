@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &511229225954603561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1026398179714445507}
+  m_Layer: 0
+  m_Name: GameObject (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1026398179714445507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511229225954603561}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 149.14706, y: 14.82444, z: 726.2204}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8373336908706325316}
+  - {fileID: 3393324384694052960}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1170177827399981156
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1026398179714445507}
+    m_Modifications:
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.1995087
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.93363094
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5253906
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9997157
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.023847
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 2.733
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017128246319325594, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_Name
+      value: Japanese_Mossy_Stone_Wall_ulldfby_Mid
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cd172dbe7679bfa4a93e906717ad641c, type: 3}
+--- !u!4 &8373336908706325316 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1170177827399981156}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5413007386374918976
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1026398179714445507}
+    m_Modifications:
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.1995087
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.93363094
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.40039062
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9997157
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.023847
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 2.733
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017128246319325594, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_Name
+      value: Japanese_Mossy_Stone_Wall_ulldfby_Mid (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377385636703928399, guid: cd172dbe7679bfa4a93e906717ad641c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c6de2bcfad103324783cd9f3f8ef06f8, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cd172dbe7679bfa4a93e906717ad641c, type: 3}
+--- !u!4 &3393324384694052960 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7208397154772941600, guid: cd172dbe7679bfa4a93e906717ad641c,
+    type: 3}
+  m_PrefabInstance: {fileID: 5413007386374918976}
+  m_PrefabAsset: {fileID: 0}
