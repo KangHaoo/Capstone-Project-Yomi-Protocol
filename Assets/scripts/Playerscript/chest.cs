@@ -1,58 +1,102 @@
 using UnityEngine;
+using UnityEngine.UI;
+using System.Collections.Generic;
 
-public class ChestScript : MonoBehaviour
+public class Chest : MonoBehaviour
 {
-    public GameObject player;  // The player object
-    public float interactionRange = 3f;  // Distance to interact with the chest
-    public string interactionKey = "f";  // Key to open the chest
+    public GameObject chestUI;
+    public Button[] cardButtons;
+    public List<Card> allCards;
 
-    public Renderer cardRenderer;  // The renderer of the card object (or UI image)
-    public Texture[] cardTextures;  // Array of card textures
-
-    private bool isPlayerInRange = false;
-    private bool isChestOpen = false;
+    private bool playerInRange = false;
+    private bool chestOpened = false;
 
     void Update()
     {
-        // Check if player is in range and press the interaction key
-        if (isPlayerInRange && !isChestOpen && Input.GetKeyDown(interactionKey))
+        if (playerInRange && !chestOpened && Input.GetKeyDown(KeyCode.F))
         {
             OpenChest();
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            isPlayerInRange = true;
+            playerInRange = true;
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            isPlayerInRange = false;
+            playerInRange = false;
         }
     }
 
-    private void OpenChest()
+    void OpenChest()
     {
-        isChestOpen = true;
-        Debug.Log("Chest Opened!");
-
-        // Randomize and set a texture for the card
-        int randomIndex = Random.Range(0, cardTextures.Length);
-        cardRenderer.material.mainTexture = cardTextures[randomIndex];
+        chestOpened = true;
+        chestUI.SetActive(true);
+        ShowRandomCards();
     }
 
-    private void OnGUI()
+    void ShowRandomCards()
     {
-        // Show interaction prompt when the player is in range
-        if (isPlayerInRange && !isChestOpen)
+        if (allCards.Count < 3)
         {
-            GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height - 100, 200, 30), "Press F to open chest");
+            Debug.LogWarning("Not enough cards to display.");
+            return;
+        }
+
+        // Shuffle and get 3 random cards
+        List<Card> shuffled = new List<Card>(allCards);
+        for (int i = 0; i < shuffled.Count; i++)
+        {
+            int rand = Random.Range(i, shuffled.Count);
+            (shuffled[i], shuffled[rand]) = (shuffled[rand], shuffled[i]);
+        }
+
+        for (int i = 0; i < cardButtons.Length; i++)
+        {
+            Card selectedCard = shuffled[i];
+
+            // Set button text
+            Text buttonText = cardButtons[i].GetComponentInChildren<Text>();
+            if (buttonText != null)
+                buttonText.text = selectedCard.cardName;
+
+            // Set button icon
+            Transform iconTransform = cardButtons[i].transform.Find("Icon");
+            if (iconTransform != null)
+            {
+                Image iconImage = iconTransform.GetComponent<Image>();
+                if (iconImage != null)
+                {
+                    iconImage.sprite = selectedCard.cardIcon;
+                    iconImage.enabled = true;
+                    Debug.Log($"Assigned icon to card {i}: {selectedCard.cardIcon.name}");
+                }
+            }
+
+            // Optional: clear and assign click behavior
+            cardButtons[i].onClick.RemoveAllListeners();
+            cardButtons[i].onClick.AddListener(() => OnCardSelected(selectedCard));
         }
     }
+
+    void OnCardSelected(Card selectedCard)
+    {
+        Debug.Log("You selected card: " + selectedCard.cardName);
+        // Optional: Add card to inventory, close UI, etc.
+    }
+}
+
+
+[System.Serializable]
+public class Card
+{
+    public string cardName;
+    public Sprite cardIcon;
 }
